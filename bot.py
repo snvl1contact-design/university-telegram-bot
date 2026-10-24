@@ -7,7 +7,8 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "8606988545:AAFmPHs4k2hmOqNrQMEPNDVwa-8KhwT4pr4"
+import os
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 ADMIN_ID = 8969999721
 
