@@ -24,7 +24,7 @@ from telegram.ext import (
 )
 
 import os
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TOKEN = os.environ.get("TELEGRAM-TOKEN")
 
 ADMIN_ID = 8969999721
 
